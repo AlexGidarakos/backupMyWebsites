@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # backupMyWebsites.sh
-# A BASH script for unattended backups of multiple websites on a LEMP server
+# A Bash script for unattended backups of multiple websites on a LEMP server
 # Project URL: https://github.com/AlexGidarakos/backupMyWebsites
 # Version: 0.1.1
 #
@@ -10,7 +10,7 @@
 # For each website, a configuration file with a .conf extension must be
 # created inside the conf.d subdirectory. See conf.d/example.com.conf.README
 # for an example.
-# Dependencies: BASH, GNU coreutils, systemd, nginx, php5-fpm, rsync,
+# Dependencies: Bash, GNU coreutils, systemd, nginx, php5-fpm, rsync,
 # mysqldump, gzip. With some modifications, it should work for other shells,
 # init systems, Apache instead of nginx etc.
 # Tested on: Debian GNU/Linux 8.4 amd64
