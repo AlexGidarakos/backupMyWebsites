@@ -1,0 +1,28 @@
+# example.com.conf.README
+# This file is part of the backupMyWebsites project.
+# Project URL: https://github.com/AlexGidarakos/backupMyWebsites
+#
+# Copyright 2016, Alexandros Gidarakos.
+# Author: Alexandros Gidarakos <algida79@gmail.com>
+# Author URL: http://linkedin.com/in/alexandrosgidarakos
+#
+# SPDX-License-Identifier: GPL-2.0
+
+# Example configuration file
+# For each website you want to have unattended backups, create a file with
+# .conf extension inside the same conf.d directory where this file resides.
+
+# Required - This is used to identify the website
+BMW_SITE=example
+
+# Required -  Path to website basedir
+BMW_SITE_DIR=/var/www/example
+
+# Required - Path to basedir where backups will be stored
+BMW_SITE_BACKUP_DIR=/var/backup/example
+
+# Optional - Space-separated exclude patterns
+# BMW_SITE_EXCLUDE=public_html/cache/* public_html/tmp/*
+
+# Optional - Name of the website's MySQL/MariaDB database
+# BMW_SITE_DB=example
