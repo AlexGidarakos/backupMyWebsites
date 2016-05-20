@@ -12,10 +12,10 @@ Tested on: Debian GNU/Linux 8.4 amd64
 
 Suppose you extracted the backupMyWebsites tar.gz file in "/opt/". First, give the script execute permissions:
 ```bash
-# chmod +x /opt/backupMySites/backupMySites.sh
+# chmod +x /opt/backupMyWebsites/backupMyWebsites.sh
 ```
 
 Now you can create a cronjob that will run every day at e.g. 3:30am with this one-liner:
 ```bash
-# crontab -l | { cat; echo '30 3 * * * /opt/backupMySites/backupMySites.sh'; } | crontab -
+# crontab -l | { cat; echo '30 3 * * * /opt/backupMyWebsites/backupMyWebsites.sh'; } | crontab -
 ```
