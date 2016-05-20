@@ -3,7 +3,6 @@
 # backupMyWebsites.sh
 # A Bash script for unattended backups of multiple websites on a LEMP server
 # Project URL: https://github.com/AlexGidarakos/backupMyWebsites
-# Version: 0.1.1
 #
 # backupMyWebsites.sh is designed to run with root privileges from a daily
 # cronjob and create daily, weekly and monthly backups of our websites.
