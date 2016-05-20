@@ -13,13 +13,13 @@
 # .conf extension inside the same conf.d directory where this file resides.
 
 # Required - This is used to identify the website
-BMW_SITE=example
+BMW_SITE=example.com
 
 # Required -  Path to website basedir
-BMW_SITE_DIR=/var/www/example
+BMW_SITE_DIR=/var/www/example.com
 
 # Required - Path to basedir where backups will be stored
-BMW_SITE_BACKUP_DIR=/var/backup/example
+BMW_SITE_BACKUP_DIR=/var/backup/example.com
 
 # Optional - Space-separated exclude patterns
 # BMW_SITE_EXCLUDE=public_html/cache/* public_html/tmp/*
