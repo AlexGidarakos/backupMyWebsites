@@ -1,5 +1,5 @@
 # backupMyWebsites
-backupMyWebsites.sh is a Bash script for unattended backups of multiple websites on a LEMP server. It's designed to run with root privileges from a daily cronjob and create daily, weekly and monthly backups of our websites.
+backupMyWebsites.sh is a Bash script for unattended local backups of multiple websites on a LEMP server. It's designed to run with root privileges from a daily cronjob and create daily, weekly and monthly backups of our websites.
 
 For each website, a configuration file with a .conf extension must be created inside the conf.d subdirectory. See file conf.d/example.com.conf.README for an example configuration.
 
