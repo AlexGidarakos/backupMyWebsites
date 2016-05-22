@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # backupMyWebsites.sh
-# A Bash script for unattended backups of multiple websites on a LEMP server
+# Bash script for unattended local backups of multiple websites on LEMP servers
 # Project URL: https://github.com/AlexGidarakos/backupMyWebsites
 #
 # backupMyWebsites.sh is designed to run with root privileges from a daily
